@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #348E38;
+    --primary: #DD9933;
     --secondary: #525368;
-    --light: #E8F5E9;
-    --dark: #0F4229;
+    --light: #faf8de;
+    --dark: #000;
 }
 
 .back-to-top {
@@ -166,7 +166,7 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(15, 66, 41, .6);
+    background: rgba(122, 103, 13, .6);
     z-index: 1;
 }
 
@@ -227,7 +227,7 @@ h6,
 /*** Facts & Quote ***/
 .facts,
 .quote {
-    background: rgba(15, 66, 41, .6);
+    background: rgba(122, 103, 13, .6);
 }
 
 
@@ -269,7 +269,7 @@ h6,
 }
 
 .service-item:hover .service-text {
-    background: rgba(15, 66, 41, .6);
+    background: rgba(122, 103, 13, .6);
 }
 
 .service-item .service-text h4,
@@ -508,7 +508,9 @@ h6,
 
 .copyright {
     color: var(--light);
-    background: #072A19;
+    /*background: #072A19;*/
+    background-color: rgba(122, 103, 13, .9) !important
+
 }
 
 .copyright a {
